@@ -8,20 +8,6 @@
 
     tools:context="wulinhao.bwie.com.circleview.MainActivity">
 
-<wulinhao.bwie.com.circleview.RoundProgressBar
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/round"
-    />
-
-    <Button
-        android:text="Go"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/button"/>
-
     <Button
         android:text="外圆内方"
         android:layout_width="wrap_content"
@@ -29,4 +15,67 @@
         android:layout_alignTop="@+id/button"
         android:layout_alignParentStart="true"
         android:id="@+id/button2"/>
+
+    <Button
+        android:text="能力图"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button4"/>
+
+    <Button
+        android:text="太极"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignEnd="@+id/button2"
+        android:id="@+id/button5"/>
+
+    <Button
+        android:text="okhttp请求"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button5"
+        android:layout_toEndOf="@+id/button2"
+        android:id="@+id/buttonok"/>
+
+    <Button
+        android:text="RecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_toEndOf="@+id/buttonok"
+        android:id="@+id/RecyclerViews"/>
+
+    <Button
+        android:text="自定义Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:text="Go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/button3"/>
+
+    <Button
+        android:text="chekboxR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonok"
+        android:id="@+id/chekboxR"
+        android:layout_toStartOf="@+id/RecyclerViews"/>
+
+    <wulinhao.bwie.com.circleview.RoundProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/round"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
 </RelativeLayout>

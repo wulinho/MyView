@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/circleview/circleview.iml" filepath="$PROJECT_DIR$/circleview/circleview.iml" />
       <module fileurl="file://$PROJECT_DIR$/clock/clock.iml" filepath="$PROJECT_DIR$/clock/clock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview-swipe/recyclerview-swipe.iml" filepath="$PROJECT_DIR$/recyclerview-swipe/recyclerview-swipe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
     </modules>
   </component>
 </project>

@@ -11,6 +11,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/circleview" />
             <option value="$PROJECT_DIR$/clock" />
+            <option value="$PROJECT_DIR$/recyclerview-swipe" />
+            <option value="$PROJECT_DIR$/sample" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

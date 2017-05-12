@@ -31,7 +31,9 @@ public class Neifangwaiyuan extends View {
 
     public Neifangwaiyuan(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-        initPaint();
+        initPaint();//初始化画笔
+
+
     }
 
     private void initPaint() {  //加载画笔的操作
