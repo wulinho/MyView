@@ -34,4 +34,9 @@ dependencies {
     compile 'com.squareup.okio:okio:1.7.0'
     compile 'com.google.code.gson:gson:2.8.0'
     compile 'com.android.support:recyclerview-v7:25.2.0'
+    //加载图片的工具
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //圆角的图片
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.github.xxl6097:okhttputils:2.4.1'
 }

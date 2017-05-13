@@ -3,9 +3,8 @@
           package="wulinhao.bwie.com.circleview">
 
     <uses-permission android:name="android.permission.INTERNET"/>
-
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -39,8 +38,11 @@
         <activity android:name=".Main8Activity">
         </activity>
         <activity android:name=".Main9Activity">
-        </activity>   <activity android:name=".Main10Activity">
-    </activity>
+        </activity>
+        <activity android:name=".Main10Activity">
+        </activity>
+        <activity android:name=".Main11Activity">
+        </activity>
     </application>
 
 </manifest>
